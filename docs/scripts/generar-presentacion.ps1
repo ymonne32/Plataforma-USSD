@@ -28,7 +28,7 @@ try {
     $ppt.Visible = 1
     $pres = $ppt.Presentations.Add()
 
-    Add-TitleSlide $pres 'Aseguramiento de Calidad' "Plataforma USSD (gRPC) - Reto Hakom`nKarate + Java | Junio 2026"
+    Add-TitleSlide $pres 'Aseguramiento de Calidad' "Plataforma USSD (gRPC) - Reto Hakom`nYamileidy Monne Clemente | Karate + Java | Junio 2026"
 
     Add-BulletSlide $pres 'Agenda' @(
         'Contexto de negocio: canal USSD',

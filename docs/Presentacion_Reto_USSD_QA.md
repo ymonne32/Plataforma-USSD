@@ -13,7 +13,8 @@ style: |
 <!-- _class: lead -->
 # Aseguramiento de Calidad
 ## Plataforma USSD (gRPC)
-**Reto Hakom — Karate + Java**
+**Reto Hakom — Karate + Java**  
+**Yamileidy Monne Clemente**
 
 ---
 

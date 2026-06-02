@@ -142,6 +142,10 @@
         </profile>
         <profile>
             <id>offline</id>
+            <properties>
+                <grpc.host>181.224.248.52</grpc.host>
+                <grpc.port>9898</grpc.port>
+            </properties>
             <build>
                 <plugins>
                     <plugin>

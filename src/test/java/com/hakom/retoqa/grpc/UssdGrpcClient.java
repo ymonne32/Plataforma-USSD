@@ -33,13 +33,21 @@ public final class UssdGrpcClient {
         if (instance == null) {
             synchronized (UssdGrpcClient.class) {
                 if (instance == null) {
-                    String host = System.getProperty("grpc.host", "181.224.248.52");
-                    int port = Integer.parseInt(System.getProperty("grpc.port", "9898"));
+                    String host = propertyOrDefault("grpc.host", "181.224.248.52");
+                    int port = Integer.parseInt(propertyOrDefault("grpc.port", "9898"));
                     instance = new UssdGrpcClient(host, port);
                 }
             }
         }
         return instance;
+    }
+
+    private static String propertyOrDefault(String key, String defaultValue) {
+        String value = System.getProperty(key);
+        if (value == null || value.isBlank()) {
+            return defaultValue;
+        }
+        return value.trim();
     }
 
     public String call(Map<String, Object> request) {
