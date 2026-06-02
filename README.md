@@ -12,7 +12,6 @@ Suite de automatización en **Java + Karate** para el flujo USSD stateful del re
 | [docs/ESTRATEGIA_QA.md](docs/ESTRATEGIA_QA.md) | Estrategia, framework, matriz de cobertura, CI |
 | [docs/REPORTE_EJECUTIVO_CEO.md](docs/REPORTE_EJECUTIVO_CEO.md) | Resumen ejecutivo, riesgos y métricas en lenguaje de negocio |
 | [docs/GUIA_PRESENTACION.md](docs/GUIA_PRESENTACION.md) | Guion para la presentación final |
-| [docs/Presentacion_Reto_USSD_QA.pptx](docs/Presentacion_Reto_USSD_QA.pptx) | **PowerPoint** (20 diapositivas) |
 
 ## Requisitos
 
