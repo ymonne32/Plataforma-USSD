@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package ussd;
+
+option java_package = "com.hakom.retoqa.grpc";
+option java_multiple_files = true;
+option java_outer_classname = "UssdProto";
+
+// Contrato inferido del reto técnico Hakom (ajustar si el servidor expone otro .proto).
+message UssdCmdRequest {
+  int32 gw_session_id = 1;
+  int32 gw_trans_id = 2;
+  string session_id = 3;
+  string ussd_service_op = 4 [json_name = "ussd_service_op"];
+  string msisdn = 5;
+  string vlr = 6;
+  string ussd_string = 7;
+  string ussd_data_coding = 8;
+  string error = 9;
+  string ussd_core_id = 10;
+  string ussd_gw_id = 11;
+  string type = 12;
+}
+
+message UssdCmdResponse {
+  int32 gw_session_id = 1;
+  int32 gw_trans_id = 2;
+  string session_id = 3;
+  string ussd_service_op = 4 [json_name = "ussd_service_op"];
+  string msisdn = 5;
+  string vlr = 6;
+  string ussd_string = 7;
+  string ussd_data_coding = 8;
+  string error = 9;
+  string ussd_core_id = 10;
+  string ussd_gw_id = 11;
+  string type = 12;
+}
+
+service UssdCmd {
+  rpc UssdCmd(UssdCmdRequest) returns (UssdCmdResponse);
+}

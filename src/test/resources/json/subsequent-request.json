@@ -1,0 +1,14 @@
+{
+  "gwSessionId": 0,
+  "gwTransId": 2,
+  "sessionId": "<SESSION_ID>",
+  "ussd_service_op": "USSD_SERVICE_UNSTRUCTURED_SS_REQUEST",
+  "msisdn": "541122556664",
+  "vlr": "",
+  "ussdString": "1",
+  "ussdDataCoding": "GSM7_DEFAULT",
+  "error": "OK",
+  "ussdCoreId": "USSD-HAC-CORA1",
+  "ussdGwId": "USSDGWS101",
+  "type": "PULL"
+}

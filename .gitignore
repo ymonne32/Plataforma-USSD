@@ -1,0 +1,13 @@
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+*.log
+.karate/
+
+# Office temporales
+~$*
+Thumbs.db

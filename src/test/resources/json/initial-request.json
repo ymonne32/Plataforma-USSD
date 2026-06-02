@@ -1,0 +1,7 @@
+{
+  "gwTransId": 2,
+  "ussd_service_op": "USSD_SERVICE_PROCESS_UNSTRUCTURED_SS_REQUEST",
+  "msisdn": "541122556664",
+  "ussdString": "*999#",
+  "ussdGwId": "USSDGWS101"
+}
