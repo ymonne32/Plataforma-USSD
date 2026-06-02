@@ -10,4 +10,5 @@ target/
 
 # Office temporales
 ~$*
+*.pptx
 Thumbs.db
