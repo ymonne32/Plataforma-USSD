@@ -48,8 +48,8 @@ git status
 
 ## Enlace para la entrega Hakom
 
-Copia la URL del repositorio, por ejemplo:
+Repositorio publicado:
 
-`https://github.com/TU_USUARIO/reto-qa-ussd-grpc`
+**https://github.com/ymonne32/Plataforma-USSD**
 
-Inclúyela en el correo de entrega junto con `docs/INDICE_ENTREGA.md`.
+Inclúyelo en el correo de entrega junto con `docs/INDICE_ENTREGA.md`.

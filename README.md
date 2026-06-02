@@ -1,5 +1,7 @@
 # Reto QA Senior – Plataforma USSD (gRPC) con Karate
 
+**Repositorio:** https://github.com/ymonne32/Plataforma-USSD
+
 Suite de automatización en **Java + Karate** para el flujo USSD stateful del reto Hakom, consumiendo el servicio gRPC **UssdCmd/UssdCmd**.
 
 ## Documentación de entrega (CEO / presentación)
